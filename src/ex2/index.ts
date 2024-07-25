@@ -1,4 +1,4 @@
-import { sendOrderEmail } from './lib/email'; // Assurez-vous que le chemin est correct
+import { sendOrderEmail } from './lib/email';
 
 export type Order = {
   id: string;
