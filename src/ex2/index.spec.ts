@@ -2,7 +2,7 @@ import { submitOrder, Order } from './index';
 import { sendOrderEmail } from './lib/email';
 
 jest.mock('./lib/email', () => ({
-  sendOrderEmail: jest.fn(), //Création du Mock 
+  sendOrderEmail: jest.fn(), //Création du Mock afin de pas appeler sendOrderEmail
 }));
 
 describe("submitOrder", () => {
